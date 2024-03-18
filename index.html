@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/imgs/pngwing.com(3).png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-alura"></div>
+        </nav>
+    </header> 
+    <main class="contenedor">
+        <section class="input-section" >
+            <textarea class="input-text" id="input-text" placeholder="Ingrese el texto aquí"></textarea>
+            <p class="texto-indicativo"><img src="./assets/imgs/Vector.png" alt=""> Solo letras minúsculas y sin acentos</p>
+            <div class="contenedor-btns">
+                <button class="btn-encriptar" id="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar" id="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="output-section">
+            <textarea class="output-text" id="output-text" readonly></textarea>
+            <div class="muñecoytexto">
+                <img src="./assets/imgs/Muñeco.png" class="imagen-muñeco" alt="Imagen superpuesta">
+                <h3>Ningún mensaje fue encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>    
+            </div>
+            <button class="btn-copiar" id="btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 <a href="https://github.com/JacqueElizain" target="_blank">Jaquelina Eliacincin</a>. Todos los derechos reservados.</p>
+    </footer>
+    
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
